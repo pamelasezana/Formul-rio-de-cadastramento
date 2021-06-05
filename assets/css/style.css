@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    color:#fff;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    background: url(../css/images/fundo.jpg)no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1, .box2{
+    padding: 20px;
+}
+img{
+    height: 80px;
+    border-radius: 50%;
+}
+.img1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box1{
+    width: 200px;
+    height: 450px;
+    background-color: #1e1e1e;
+    background: linear-gradient(#5d5d5d, #7d7d7d);
+    border-radius: 10px 10px 10px 10px;
+    opacity:0.90;
+    text-align:center;
+}
+.box2{
+    margin-left:40px;
+   
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+.box2 h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align:center;
+}
+form{
+    background-color: transparent;
+}
+input {
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    border-color: transparent;
+    color: #000;
+    margin: 5px;
+    padding: 3px;
+    
+    
+}
+option, select, button {
+    background-color: #084d6e;
+    background: linear-gradient( -60deg,#084d6e, #085d7e);
+    border-radius: 5px;
+    border-color: transparent;
+    color: #fff;
+    margin: 10px;
+    
+} 
+button a{
+    text-decoration: none;
+}
+select {
+    background-color: #000;
+    border-radius: 10px;
+    padding: 3px;
+}
+.register {
+    padding: 5px;
+    margin-right:5px;
+    
+    
+}
+ .checkbox{
+     font-size:14px;
+     font-weight: bold;
+     overflow: visible;
+ }
+ .button{
+     padding: 5px;
+     margin-right: 5px;
+ }
+ 
+
+@media ( max-width: 600px){
+    .box {
+        flex-direction: column;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 20px;
+        width: auto;
+        text-align: center;
+    }
+    .box1, .box2 {
+        width: 250px;
+        height: 450px;
+    }
+    .box1 {
+        border-radius: 10px 10px 10px 10px;
+    }
+    .box2 {
+        border-radius: 10px 10px 10px 10px;
+    }
+}
